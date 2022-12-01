@@ -1,0 +1,89 @@
+1.a
+class Movie{
+
+constructor(title,studio,rating)
+{
+
+this.title=title
+this.studio=studio
+this.rating=rating
+
+}
+
+}
+let flim =new Movie("Ponniyin Selvan","Lyca Productions","PG­13")
+
+console.log(flim);
+
+output;
+
+Movie {title: 'Ponniyin Selvan', studio: 'Lyca Productions', rating: 'PG­13'}
+
+1.B
+
+class Movie{
+
+constructor(title,studio,rating="PG")
+{
+
+this.title=title
+this.studio=studio
+this.rating=rating
+
+}
+
+}
+let flim =new Movie("Ponniyin Selvan","Lyca Productions",)
+
+console.log(flim);
+
+OUTPUT;
+Movie {title: 'Ponniyin Selvan', studio: 'Lyca Productions', rating: 'PG'}
+
+1.D
+class Movie{
+
+constructor(title,studio,rating)
+{
+
+this.title=title
+this.studio=studio
+this.rating=rating
+
+}
+
+}
+let flim =new Movie("Casino Royale","Eon Productions","PG­13")
+
+console.log(flim);
+
+
+OUTPUT;
+
+Movie {title: 'Casino Royale', studio: 'Eon Productions', rating: 'PG­13'}
+
+
+
+// 3.
+
+// class Person{
+
+
+//     constructor(name,age,email,bloodGroup){
+        
+        
+//         this.name=name;
+//         this.age=age;
+//         this.email=email;
+//         this.bloodGroup=bloodGroup
+        
+//     }
+   
+// };
+// var text = new Person("shajan","23","sandy@gmail.com","B+");
+
+
+// console.log(text)
+
+// output;
+// Person {name: 'shajan', age: '23', email: 'sandy@gmail.com', bloodGroup: 'B+'}
