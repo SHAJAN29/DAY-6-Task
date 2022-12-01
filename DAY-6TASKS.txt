@@ -33,12 +33,12 @@ this.rating=rating
 }
 
 }
-let flim =new Movie("Ponniyin Selvan","Lyca Productions",)
+let flim =new Movie("Ponniyin Selvan","Lyca Productions","PG13")
 
 console.log(flim);
 
 OUTPUT;
-Movie {title: 'Ponniyin Selvan', studio: 'Lyca Productions', rating: 'PG'}
+Movie {title: 'Ponniyin Selvan', studio: 'Lyca Productions', rating: 'PG13'}
 
 1.D
 class Movie{
