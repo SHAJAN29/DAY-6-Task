@@ -40,6 +40,88 @@ console.log(flim);
 OUTPUT;
 Movie {title: 'Ponniyin Selvan', studio: 'Lyca Productions', rating: 'PG13'}
 
+1.c
+
+
+class Movie{
+
+    constructor(name,production,rating){
+
+this.name=name;
+this.production=production;
+this.rating=rating;
+
+
+    }
+    getPG(array) {
+
+        let result =[];
+        for(let i=0;i<array.length;i++){
+
+if(array[i].rating=="PG13"){
+
+    result.push(array[i]);
+}
+
+
+        }
+        return result
+        }
+        
+}
+
+
+let movie1 =new Movie('ms_marvel','marvel')
+
+let movie2=new Movie('ponniyin selven','lyca production','PG13')
+
+let movie3=new Movie('beast','sun_tv','PG13')
+
+let movie4 = new Movie('varisu',' PVP_Cinema') 
+let arr = [movie1,movie2,movie3,movie4];
+
+console.log(movie3.getPG(arr))
+
+(2) [Movie, Movie]
+0
+: 
+Movie
+name
+: 
+"ponniyin selven"
+production
+: 
+"lyca production"
+rating
+: 
+"PG13"
+[[Prototype]]
+: 
+Object
+1
+: 
+Movie
+name
+: 
+"beast"
+production
+: 
+"sun_tv"
+rating
+: 
+"PG13"
+[[Prototype]]
+: 
+Object
+length
+: 
+2
+[[Prototype]]
+: 
+Array(0)
+
+
+
 1.D
 class Movie{
 
